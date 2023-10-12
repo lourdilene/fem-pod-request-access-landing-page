@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,400;1,700&display=swap");
+
+:root {
+  --primary-color: #54e6af;
+  --primary-color-dark: #2c344b;
+  --secondary-color-dark-gray: #5a668a;
+  --secondary-color-white-gray: #c2cbe5;
+  --dark: #121725;
+  --white: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Chivo", sans-serif;
+  background-color: var(--dark);
+}
+
+container {
+  width: 1440px;
+  height: 900px;
+}
+
+.content-right {
+  display: flex;
+  right: 0px;
+}
+
+.img {
+  margin-top: 130px;
+  display: block;
+  margin-left: auto;
+}
