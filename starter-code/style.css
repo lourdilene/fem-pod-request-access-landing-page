@@ -21,6 +21,7 @@ body {
 }
 
 container {
+  position: relative;
   width: 1440px;
   height: 900px;
 }
@@ -32,6 +33,96 @@ container {
 
 .img {
   margin-top: 130px;
-  display: block;
   margin-left: auto;
+  width: 55%;
+  text-align: right;
+}
+
+h1 {
+  font-family: Chivo;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 62px; /* 119.231% */
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: 88px;
+  color: var(--primary-color);
+}
+
+.subtitle {
+  color: var(--white);
+}
+
+.content {
+  width: 445px;
+}
+
+.content-left {
+  width: 723px;
+  height: 509px;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 360px;
+  background-color: var(--dark);
+}
+
+p {
+  color: var(--secondary-color-white-gray);
+  font-family: Chivo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  margin-top: 30px;
+}
+
+.access {
+  width: 427px;
+  height: 56px;
+  flex-shrink: 0;
+  margin-top: 40px;
+  border-radius: 28px;
+  background: var(--primary-color-dark);
+  /* display: flex; */
+}
+
+.email {
+  margin: 10px;
+  margin-left: 32px;
+  padding: 5px;
+  border: none;
+  color: var(--white);
+  font-family: Chivo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+}
+
+.button {
+  width: 162px;
+  height: 46px;
+  flex-shrink: 0;
+  margin-right: auto;
+  border-radius: 28px;
+  background: var(--primary-color);
+  box-shadow: 0px 2px 4px 0px rgba(84, 230, 175, 0.14);
+  margin-left: 30px;
+}
+
+input {
+  background: var(--primary-color-dark);
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  color: var(--secondary-color-dark-gray);
+  margin-top: 100px;
 }
