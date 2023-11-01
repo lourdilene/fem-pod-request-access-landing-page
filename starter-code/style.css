@@ -24,9 +24,6 @@ body {
   min-height: 100vh;
   margin-bottom: 130px;
   position: relative;
-  /* display: flex; */
-  /* width: 1440px;
-  height: 900px; */
 }
 
 .logo {
@@ -35,16 +32,16 @@ body {
 }
 
 .content-right {
-  /* display: flex; */
-  /* flex: 1.5; */
-  /* justify-content: left;
-  margin: 130px 0px; */
   margin-top: 130px;
   margin-left: 130px;
-  /* margin-bottom: 130px; */
 }
 
-.img {
+.img-desktop {
+  width: 100%;
+  text-align: right;
+}
+
+.img-mobile {
   width: 100%;
   text-align: right;
 }
@@ -63,10 +60,6 @@ body {
   text-align: right;
   right: 0px;
   top: 590px;
-  /* margin-top: auto; */
-  /* margin-top: auto;
-  margin-bottom: 80px; */
-  /* float: inline-end; */
 }
 
 h1 {
