@@ -16,44 +16,51 @@
     <title>Frontend Mentor | Pod request access landing page</title>
   </head>
   <body>
-    <div class="container">
-      <div class="logo">
+    <header class="header">
+      <div class="header__logo">
         <img src="/assets/desktop/logo.svg" alt="" />
       </div>
-      <div class="content-left">
-        <h1 class="title">Publish your podcasts</h1>
-        <h1 class="subtitle">everywhere.</h1>
-        <p class="text">
-          Upload your audio to Pod with a single click. We’ll then distribute
-          your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts
-          and more!
-        </p>
-        <div class="access">
-          <input type="text" class="email" placeholder="Email Address" />
-          <input type="button" class="button" value="Request Access" />
+    </header>
+    <main class="main__container">
+      <h1>Publish your podcasts <span>everywhere.</span></h1>
+      <p>
+        Upload your audio to Pod with a single click. We’ll then distribute your
+        podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
+        more!
+      </p>
+      <form>
+        <div class="form-field">
+          <input type="text" placeholder="Email Address" class="email_input" />
+          <input type="button" value="Request Access" class="request_access" />
         </div>
-        <div class="socials">
-          <img src="assets/desktop/spotify.svg" alt="Spotify" />
-          <img src="assets/desktop/apple-podcast.svg" alt="Apple Podcast" />
-          <img src="assets/desktop/google-podcasts.svg" alt="Google Podcasts" />
-          <img src="assets/desktop/pocket-casts.svg" alt="Pocket Casts" />
-        </div>
-      </div>
-      <div class="content-right">
-        <div class="img-desktop">
-          <img src="/assets/desktop/image-host.jpg" alt="Host" />
-        </div>
-        <div class="img-tablet">
-          <img src="/assets/tablet/image-host.jpg" alt="Host" />
-        </div>
-      </div>
-      <div class="content-bottom">
+      </form>
+      <div class="socials">
         <img
-          class="img-bottom"
-          src="/assets/desktop/bg-pattern-dots.svg"
-          alt="Pattern dots"
+          src="assets/desktop/spotify.svg"
+          alt="Spotify"
+          class="socials_spotify"
+        />
+        <img
+          src="assets/desktop/apple-podcast.svg"
+          alt="Apple Podcast"
+          class="socials_apple"
+        />
+        <img
+          src="assets/desktop/google-podcasts.svg"
+          alt="Google Podcasts"
+          class="socials_google"
+        />
+        <img
+          src="assets/desktop/pocket-casts.svg"
+          alt="Pocket Casts"
+          class="socials_pocket"
         />
       </div>
-    </div>
+      <img
+        src="./assets/desktop/bg-pattern-dots.svg"
+        alt="Pattern Dots"
+        class="bg-pattern-dots"
+      />
+    </main>
   </body>
 </html>
