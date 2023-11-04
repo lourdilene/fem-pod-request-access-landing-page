@@ -1,5 +1,56 @@
 /** MOBILE DEVICES*/
 @media screen and (max-width: 480px) {
+  .img-desktop {
+    display: none;
+  }
+  .img-tablet {
+    display: none;
+  }
+  .content-bottom {
+    display: none;
+  }
+  body {
+    background: var(--dark) url(./assets/mobile/image-host.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 78px 24px;
+    background-attachment: fixed;
+  }
+  body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(18, 23, 37, 0.9);
+  }
+  .container {
+    width: 100%;
+    background: transparent;
+    padding: 0;
+    margin-top: 55px;
+    margin-left: 0;
+    z-index: 1;
+    position: relative;
+  }
+  .logo {
+    padding: 62px 0px;
+    /* display: flex; */
+    justify-content: center;
+    padding: 0px;
+    position: relative;
+  }
+  .content-left {
+    background-color: unset;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .content-left h1 {
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+  }
 }
 /** IPAD AND TABLETS*/
 @media screen and (min-width: 481px) and (max-width: 1200px) {
