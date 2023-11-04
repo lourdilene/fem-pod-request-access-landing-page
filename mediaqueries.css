@@ -1,8 +1,5 @@
 /** MOBILE DEVICES*/
 @media screen and (max-width: 480px) {
-  body {
-    background-color: lightsalmon;
-  }
 }
 /** IPAD AND TABLETS*/
 @media screen and (min-width: 481px) and (max-width: 1200px) {
