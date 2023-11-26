@@ -1,0 +1,66 @@
+/** MOBILE DEVICES*/
+@media screen and (max-width: 480px) {
+}
+/** IPAD AND TABLETS*/
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+  .img-desktop {
+    display: none;
+  }
+  .content-right {
+    position: absolute;
+    margin-left: 0px;
+    height: 700px;
+    margin-top: 0px;
+    right: 0px;
+  }
+  .img-tablet {
+    float: right;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .container {
+    width: 100%;
+    margin-bottom: 0px;
+    min-height: 100vh;
+    position: relative;
+  }
+  .content-left {
+    z-index: 1;
+    height: 518px;
+    position: absolute;
+    width: 80%;
+    top: 250px;
+    left: 0px;
+  }
+  .content-bottom {
+    position: absolute;
+    margin-left: 0px;
+    height: 400px;
+    bottom: 0px;
+    width: 100%;
+  }
+  .img-bottom {
+    position: absolute;
+    margin-left: 0px;
+    float: left;
+    top: 350px;
+    left: 40px;
+    bottom: 0px;
+  }
+  .socials {
+    margin-top: 60px;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .logo {
+    top: 60px;
+    left: 50px;
+  }
+}
+/** LAPTOP AND DESKTOP*/
+@media screen and (min-width: 1200px) {
+  .img-tablet {
+    display: none;
+  }
+}

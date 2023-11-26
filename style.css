@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,400;1,700&display=swap");
+
+:root {
+  --primary-color: #54e6af;
+  --primary-color-dark: #2c344b;
+  --secondary-color-dark-gray: #5a668a;
+  --secondary-color-white-gray: #c2cbe5;
+  --dark: #121725;
+  --white: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Chivo", sans-serif;
+  background-color: var(--dark);
+}
+
+.container {
+  min-height: 100vh;
+  margin-bottom: 130px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 133px;
+}
+
+.content-right {
+  margin-top: 130px;
+  margin-left: 130px;
+}
+
+.img-desktop {
+  width: 100%;
+  text-align: right;
+}
+
+.img-mobile {
+  width: 100%;
+  text-align: right;
+}
+
+.content-left {
+  position: absolute;
+  bottom: 0px;
+  right: 550px;
+  background-color: var(--dark);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content-bottom {
+  position: absolute;
+  text-align: right;
+  right: 0px;
+  top: 590px;
+}
+
+h1 {
+  font-family: Chivo;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 62px; /* 119.231% */
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: 88px;
+  color: var(--primary-color);
+}
+
+.subtitle {
+  color: var(--white);
+}
+
+.text {
+  width: 445px;
+}
+
+p {
+  color: var(--secondary-color-white-gray);
+  font-family: Chivo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  margin-top: 30px;
+}
+
+.access {
+  width: 427px;
+  height: 56px;
+  flex-shrink: 0;
+  margin-top: 40px;
+  border-radius: 28px;
+  background: var(--primary-color-dark);
+}
+
+.email {
+  margin: 10px;
+  margin-left: 32px;
+  padding: 5px;
+  border: none;
+  color: var(--white);
+  font-family: Chivo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+}
+
+.button {
+  width: 162px;
+  height: 46px;
+  margin-right: auto;
+  border: none;
+  border-radius: 28px;
+  background: var(--primary-color);
+  margin-left: 38px;
+}
+
+input {
+  background: var(--primary-color-dark);
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  color: var(--secondary-color-dark-gray);
+  margin-top: 50px;
+}
