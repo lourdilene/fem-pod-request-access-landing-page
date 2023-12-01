@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,300&display=swap");
+
+:root {
+  /*COLORS*/
+  --dark-purple: #24053e;
+  --eucaplyptus: #44ffa1;
+  --davys-grey: #584d62;
+  --White: #fff;
+  /*FONTS*/
+  --ff-fraunces: "Fraunces", serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: var(--ff-fraunces);
+}
+
+header {
+  background-color: var(--dark-purple);
+  color: var(--White);
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-purple);
+  height: 400px;
+}
+
+main h1 {
+  color: var(--White);
+}
+
+.content-center {
+  display: flex;
+  align-items: center;
+}
