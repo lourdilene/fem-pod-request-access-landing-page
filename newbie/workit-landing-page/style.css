@@ -27,22 +27,51 @@ body {
 }
 
 header {
-  background-color: var(--dark-purple);
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 80px 0px;
+  /* background-color: var(--dark-purple); */
   color: var(--White);
+  background-color: aqua;
+  height: 50px;
+}
+
+h1 > span {
+  text-decoration: underline;
+  text-decoration-color: var(--eucaplyptus);
+  text-underline-offset: 3px;
 }
 
 main {
   display: flex;
   justify-content: space-between;
-  background-color: var(--dark-purple);
+  /* background-color: var(--dark-purple); */
   height: 400px;
+  background-color: green;
 }
 
 main h1 {
   color: var(--White);
 }
 
+h1 > span {
+  font-weight: lighter;
+}
+
+p {
+  margin-top: 10px;
+  padding: 5px;
+  text-decoration: underline;
+  text-decoration-color: var(--eucaplyptus);
+  text-underline-offset: 3px;
+}
+
 .content-center {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+button {
 }
