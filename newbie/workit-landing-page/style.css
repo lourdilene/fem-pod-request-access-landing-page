@@ -22,40 +22,63 @@ body {
 }
 
 body {
-  background-color: antiquewhite;
   font-family: var(--ff-fraunces);
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  margin: 30px 80px 0px;
-  /* background-color: var(--dark-purple); */
+  background-color: var(--dark-purple);
   color: var(--White);
-  background-color: aqua;
-  height: 50px;
+  height: 80px;
 }
 
-h1 > span {
+h1 {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+header p {
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.svg-left {
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  left: auto;
+  width: 200px;
+}
+.svg-left svg {
+  width: 202px;
+  height: 317px;
+}
+
+/* Adicionando estilos específicos para o elemento SVG dentro de .svg-left */
+.svg-left svg path {
+  stroke: #44ffa1;
+}
+
+h2 > span {
   text-decoration: underline;
   text-decoration-color: var(--eucaplyptus);
   text-underline-offset: 3px;
+  font-weight: lighter;
 }
 
 main {
   display: flex;
   justify-content: space-between;
-  /* background-color: var(--dark-purple); */
-  height: 400px;
-  background-color: green;
+  background-image: url(assets/images/rectangle.svg);
+  background-size: cover; /* Adiciona para cobrir todo o contêiner */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  position: relative; /* Adiciona para que os elementos filhos possam usar posição absoluta */
 }
 
-main h1 {
+main h2 {
   color: var(--White);
-}
-
-h1 > span {
-  font-weight: lighter;
 }
 
 p {
@@ -70,8 +93,28 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 button {
+  margin-top: 20px;
+  background-color: var(--eucaplyptus);
+  color: var(--dark-purple);
+  padding: 10px;
+  border: none;
+  font-weight: 700;
+}
+
+#cellphone {
+  top: 200px;
+  position: relative; /* Mudança de absolute para relative */
+  width: 80%; /* Define uma largura máxima para a div */
+  margin: 0 auto; /* Centraliza a div horizontalmente */
+  overflow: hidden; /* Evita que a imagem ultrapasse os limites da div */
+}
+
+#cellphone img {
+  width: 100%; /* Faz a imagem ocupar 100% da largura da div pai */
+  height: auto; /* Mantém a proporção original da imagem */
+  display: block; /* Remove espaços em branco adicionais ao redor da imagem */
 }
