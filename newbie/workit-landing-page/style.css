@@ -56,10 +56,21 @@ main {
 }
 
 main h2 {
-  color: var(--White);
-  font-size: 2.5rem;
-  padding: 1em;
+  color: var(--White, #fff);
   text-align: center;
+  font-family: var(--ff-fraunces);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.5rem; /* 100% */
+  padding: 5px;
+}
+
+.content-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -69,6 +80,13 @@ button {
   padding: 10px;
   border: none;
   font-weight: 700;
+}
+
+img {
+  margin-top: 70px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
 
 .svg-left {
