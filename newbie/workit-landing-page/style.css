@@ -80,6 +80,13 @@ main h2 {
   padding: 5px;
 }
 
+.circulo {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
 button {
   margin-top: 20px;
   background-color: var(--eucaplyptus);
