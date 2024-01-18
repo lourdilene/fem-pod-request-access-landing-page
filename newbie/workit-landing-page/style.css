@@ -20,7 +20,7 @@
 html,
 body {
   min-height: 100vh;
-  background-color: aquamarine;
+  background-color: var(--White);
 }
 
 body {
@@ -112,6 +112,24 @@ main h2 {
   justify-content: center;
 }
 
+#founder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-founder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-purple);
+  color: var(--White);
+  margin: 0 20px;
+  padding: 20px;
+}
+
 h3 {
   margin: 10px 0;
 }
@@ -145,4 +163,19 @@ img {
 
 #svg-right {
   display: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  height: 40px;
+  width: 100%;
+}
+
+footer img {
+  height: 15px;
+  width: 15px;
 }
