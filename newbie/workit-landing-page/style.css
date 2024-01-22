@@ -218,3 +218,30 @@ footer h3 {
 #social-media-icons img {
   justify-content: space-around;
 }
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  #founder {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  .image {
+    margin: 0;
+    height: 200px;
+    width: 200px;
+  }
+  #content-founder {
+    margin-left: -70px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  #content-founder h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  #content-founder p {
+    font-size: 0.8rem;
+  }
+}
